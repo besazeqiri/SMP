@@ -1,0 +1,223 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #73787e;
+    background-color: #f9f8f6;
+    margin: 0;padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/**======= Header Part=======*/
+.header{
+    height: 100px;
+    border: 1px solid #555;
+}
+#slogan{
+    float: left;
+    width: 25%;
+    padding-left: 3px;
+}
+#slogan h2, #slogan p{
+    margin: 0px;padding: 0px;
+    margin-top: 10px;
+}
+#slogan h2{
+    margin-top: 30px;
+}
+#navbar{
+    float: right;
+    width: 73%;
+    margin-top: 35px;
+}
+#navbar ul{
+    list-style-type:none;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    padding-left: 10px!important;
+}
+#navbar ul li{
+    display: inline;
+}
+#navbar ul li a{
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border-right:1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+}
+#navbar ul li:last-child a{
+    border-right:none;
+}
+#navbar ul li a:hover{
+    background-color: #111;
+}
+/**======= End of Header Part=======*/
+/**======= Page Content=======*/
+.page{
+    height: 1000px;
+    border: 1px solid black;
+}
+#content{
+    float: left;
+    width: 73%;
+    height: 950px;
+    border: 1px solid #111;
+}
+#content h3,#projects>h4{
+    color: #f9f8f6;
+    text-align: left;
+    background-color: #333;
+    padding: 8px 5px;
+    width: 70%;
+}
+#content p{
+    padding-left: 2px;
+}
+#projects{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.pitem{
+    float: left;
+    width: 33%;
+    margin: .1em;
+}
+.pitem img{
+    width: 90%;
+    border: 1px solid #aaaaaa;
+}
+.pitem h4{
+    color: #333;;
+    border-bottom: 2px solid #333;;
+    padding-bottom: 5px;
+    width: 90%;
+    margin: 20px auto;
+}
+.pitem p{
+    text-align: justify;
+    width: 95%;
+    margin: 10px auto;
+}
+.pitem>a{
+    float: right;
+    margin-right: 10px;
+    color: #333;;
+}
+.pitem>a:hover{
+    text-decoration: overline;
+}
+#members{
+    float: left;
+    margin-top: 20px;
+    margin-left: 2px;
+    width:90%;
+    empty-cells: show; 
+    border-spacing: 2px 4px;
+    border-collapse: separate;
+}
+#members td, #members th 
+{
+    font-size:1em;
+    border:1px solid #333; 
+    padding:5px 9px 4px 5px;
+}
+#members th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#333;
+    color:#ffffff;
+}
+#members tr.alt td 
+{color:#fff;background-color:#888;}
+  
+/**======= End of Page Content=======*/
+
+/**======= Page Sidebar=======*/
+#sidebar{
+    float: right;
+    width: 26%;
+    border: 1px solid #111;
+    height: 950px;
+}
+#login{
+    float: left;
+    margin: 15px 10px;
+    width: 95%;
+
+}
+#login input[type="email"],#login input[type="password"],#login input[type="text"],
+#login select, #login input[type="date"],#login textarea, #login input[type="submit"]{
+    height:35px;
+    width: 100%;
+    border-radius:10px;
+    padding-left:5px;
+    border:1px solid gray;
+}
+#login label{
+    height:35px;
+    width: 100%;
+    text-align:left;
+    margin:0;padding:0;
+    margin-top:10px;
+}
+
+#login input[type="submit"]{
+    position: relative;
+    left: 25%;
+    width:50%;
+    margin-top:15px;
+    color: #f9f8f6;
+    background-color: #333;
+}
+#login legend{
+    color: #f9f8f6;
+    text-align: left;
+    background-color: #333;
+    padding: 8px 5px;
+    width: 90%;
+    font-size:1.2em;
+    margin-bottom:10px;
+}
+#sidebar h3{
+    margin-left: 7px;
+    width: 90%;
+}
+
+#sidebar ol li{
+    margin: 8px 1px;
+}
+#sidebar ul{
+    margin-left: 3px!important;
+    padding: 3px!important;
+    list-style-type: none;
+}
+#sidebar ul li{
+    height: 35px;
+    margin: 5px 1px;
+    border: 1px solid #888;
+}
+/**======= End of Page Sidebar=======*/
+
+.footer{ 
+    height: 70px;
+    border: 1px solid black;
+}
+.footer p{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+#message{
+    border: 1px solid green;
+    padding: 5px;
+    text-align: left;
+}
